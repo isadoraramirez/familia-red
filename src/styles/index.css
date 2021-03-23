@@ -1,21 +1,24 @@
 body {
-  margin: 0px;
+  margin: 0;
   height: 100%;
 }
-.image {
+.background-image {
   position: absolute;
-  width: 1217px;
+  /* width: 1217px; */
+  width: 100%;
   height: 5900px;
   background-image: url("./fondo.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
 }
 .image-about {
   position: absolute;
-  width: 1217px;
+  width: 100%;
   height: 1200px;
   background-image: url("./aboutus.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
 }
 .content {
@@ -40,7 +43,7 @@ h1 {
 }
 .container {
   width: 85%;
-  max-width: 1050px;
+  /* max-width: 1050px; */
 }
 .presentation {
   padding-top: 3rem;
@@ -132,7 +135,7 @@ h1 {
   padding-left: 20px;
 }
 .google-device {
-  padding-top: 550px;
+  padding-top: 600px;
   padding-left: 420px;
 }
 .settings-storage {
