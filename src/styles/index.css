@@ -10,6 +10,14 @@ body{
     background-repeat: no-repeat;
     z-index:-1;
 }
+.image-about{
+    position:absolute;
+    width:1217px; 
+    height:1200px;
+    background-image:url('./aboutus.svg');
+    background-repeat: no-repeat;
+    z-index:-1;
+}
 .content {
     position:absolute; 
     width:100%; 
@@ -55,8 +63,19 @@ h1{
     flex-wrap: wrap;
 }
 .logo{
-    letter-spacing:8px;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
     font-size: 2em;
+}
+.logo-white{
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    font-size: 2em;
+}
+.logo-white-google{
+    padding-left: -8rem;
+    padding-top: 0.6rem;
+    font-size: 1em;
 }
 .menu-icon{
     display: none;
@@ -64,7 +83,7 @@ h1{
 .navigation{
     /* font-family: 'Baloo 2', cursive; */
     font-family: 'Montserrat', sans-serif;
-    margin-left: 5rem;
+    margin-left: 2rem;
     padding: 0;
     font-size: 1.5vw;
 }
@@ -78,21 +97,62 @@ h1{
  }
  .navigation ul li a{
      display: block;
-     padding: 0.5rem 0.5rem;
+     padding-left: 0.6rem;
      transition: all 0.4s linear;
  }
  .navigation ul li a:hover {
    background: rgb(33, 4, 96);
+ } 
+ .about-us{
+    padding-top: 200px;
+    padding-left: 600px;  
  }
  .we-are{
     font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
     font-size: 18px;
     padding-top: 100px;
     padding-left: 130px;   
  }
+
+ .digital-citizen{
+    padding-top: 400px;
+    padding-left: 400px;
+ }
  .citizen-video{
+    padding-top: 150px;
+    padding-left: 210px; 
+ }
+ .emotional-education{
     padding-top: 200px;
-    padding-left: 200px; 
+    padding-left: 400px;
+ }
+ .google-use{
+    padding-top: 580px;
+    padding-left: 20px;
+ }
+ .google-device{
+    padding-top: 550px;
+    padding-left: 420px; 
+ }
+ .settings-storage{
+    padding-top: 600px;
+    padding-left: 420px; 
+ }
+ .comunication-settings{
+    padding-top: 550px;
+    padding-left: 100px;
+ }
+ .collaboration-settings{
+    padding-top: 690px;
+    padding-left: 80px;
+ }
+ .we-are-family{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:1px;
+    font-size: 15px;
+    padding-top: 70px;
+    padding-left: 150px;   
  }
  .footer{
    background:#2279d0;
@@ -103,6 +163,15 @@ h1{
    width:100%;
    font-size: 1.5vw; 
    color: white;
+ }
+ .show li{
+     color:#2279d0;
+     padding-left: 1rem;
+ }
+ .copyright{
+    font-size: 15px;
+    padding: 15px; 
+
  }
      
  @media only screen and (max-width: 767px){
