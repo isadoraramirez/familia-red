@@ -1,10 +1,25 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:blueviolet;
-    font-size: 1.2rem;
-    line-height: 1.4em;
-    margin:0;
+    margin: 0px;
+    height: 100%;
 }
+.image {
+    position:absolute;
+    width:1217px; 
+    height:5900px;
+    background-image:url('./fondo.svg');
+    background-repeat: no-repeat;
+    z-index:-1;
+}
+.content {
+    position:absolute; 
+    width:100%; 
+    top:100%; 
+    height: 100px;
+}
+/* @font-face{ 
+    font-family: Ballon; 
+    src:("https://fonts.google.com/share?selection.family=Baloo%202:wght@700%7CMontserrat:wght@400;600" );
+} */
 p{
     margin-bottom: 1.6em;
 }
@@ -12,12 +27,14 @@ a{
     color:blue;
 }
 .main{
-    padding-top: 5rem;
-}
+    padding-top: 1rem;
+} 
 .container{
     width:85%;
     max-width: 1050px;
-    margin:0 auto;
+} 
+.presentation{
+    padding-top: 3rem;
 }
 .header {
     background: #fff;
@@ -44,9 +61,11 @@ a{
     display: none;
 }
 .navigation{
-    margin: 0;
+    /* font-family: 'Baloo 2', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5rem;
     padding: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .navigation ul{
     margin: 0;
@@ -58,47 +77,60 @@ a{
  }
  .navigation ul li a{
      display: block;
-     padding: 0.3rem 0.3rem;
+     padding: 0.5rem 0.5rem;
      transition: all 0.4s linear;
  }
  .navigation ul li a:hover {
    background: rgb(33, 4, 96);
  }
-
+ .we-are{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 100px;
+    padding-left: 130px;   
+ }
+ .citizen-video{
+    padding-top: 200px;
+    padding-left: 200px; 
+ }
  .footer{
    background:#2279d0;
-   padding: 4rem 0;
-   text-align: justify;
-	  background-repeat: repeat-x;
-	  min-height: 15vh;
-      padding: 5px 0 .5px ;
-      font-size: 14px; 
+   position: fixed;
+   padding-left: 50px;
+   left: 0;
+   bottom: 0;
+   width:100%;
+   font-size: 15px; 
+   color: white;
  }
      
  @media only screen and (max-width: 767px){
-     .menu-icon{
-         display:block;
-         cursor:pointer;
-         padding: 0.5 1rem;
-     }
-    .navigation{
-        width:100%;
-    } 
-     .navigation ul{
-        display: none;
-     }
-     .navigation ul.show{
-         display: block;
-     }
-    .navigation ul li{
-         display: block;
-     }
-     .navigation ul li a{
-         display: block;
-         padding: 0.3rem;
-         transition: all 0.4s linear;
-     }
-     .navigation ul li a:hover {
-       background: rgb(82, 41, 120);
-     }
- }
+    .menu-icon{
+        display:block;
+        cursor:pointer;
+        padding: 0.5 1rem;
+    }
+   .navigation{
+       width:100%;
+   } 
+    .navigation ul{
+       display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+   .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 0.3rem;
+        transition: all 0.4s linear;
+    }
+    .navigation ul li a:hover {
+      background: rgb(82, 41, 120);
+    }
+    .footer{
+        padding: 0.3rem;
+    }
+}
