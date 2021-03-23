@@ -1,206 +1,205 @@
-body{
-    margin: 0px;
-    height: 100%;
+body {
+  margin: 0px;
+  height: 100%;
 }
 .image {
-    position:absolute;
-    width:1217px; 
-    height:5900px;
-    background-image:url('./fondo.svg');
-    background-repeat: no-repeat;
-    z-index:-1;
+  position: absolute;
+  width: 1217px;
+  height: 5900px;
+  background-image: url("./fondo.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
 }
-.image-about{
-    position:absolute;
-    width:1217px; 
-    height:1200px;
-    background-image:url('./aboutus.svg');
-    background-repeat: no-repeat;
-    z-index:-1;
+.image-about {
+  position: absolute;
+  width: 1217px;
+  height: 1200px;
+  background-image: url("./aboutus.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 .content {
-    position:absolute; 
-    width:100%; 
-    top:100%; 
-    height: 100px;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  height: 100px;
 }
-p{
-    margin-bottom: 1.6em;
+p {
+  margin-bottom: 1.6em;
 }
-a{
-    color:blue;
+a {
+  color: blue;
 }
-h1{
-    font-family:'Baloo 2', cursive;
-    color:white;
-    font-size: 3.5vw;
+h1 {
+  font-family: "Baloo 2", cursive;
+  color: white;
+  font-size: 3.5vw;
 }
-.main{
-    padding-top: 1rem;
-} 
-.container{
-    width:85%;
-    max-width: 1050px;
-} 
-.presentation{
-    padding-top: 3rem;
+.main {
+  padding-top: 1rem;
+}
+.container {
+  width: 85%;
+  max-width: 1050px;
+}
+.presentation {
+  padding-top: 3rem;
 }
 .header {
-    background: #fff;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 }
- .header a{
-     color: rgb(29, 43, 204);
-     text-decoration: none;
- }
-.logo-nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.header a {
+  color: rgb(29, 43, 204);
+  text-decoration: none;
 }
-.logo{
-    padding-left: 1rem;
-    padding-top: 0.6rem;
-    font-size: 2em;
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.logo-white{
-    padding-left: 1rem;
-    padding-top: 0.6rem;
-    font-size: 2em;
+.logo {
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  font-size: 2em;
 }
-.logo-white-google{
-    padding-left: -8rem;
-    padding-top: 0.6rem;
-    font-size: 1em;
+.logo-white {
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+  font-size: 2em;
 }
-.menu-icon{
+.logo-white-google {
+  padding-left: -8rem;
+  padding-top: 0.6rem;
+  font-size: 1em;
+}
+.menu-icon {
+  display: none;
+}
+.navigation {
+  /* font-family: 'Baloo 2', cursive; */
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
+  padding: 0;
+  font-size: 1.5vw;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li {
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding-left: 0.6rem;
+  transition: all 0.4s linear;
+}
+.navigation ul li a:hover {
+  background: rgb(33, 4, 96);
+}
+.about-us {
+  padding-top: 200px;
+  padding-left: 600px;
+}
+.we-are {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding-top: 100px;
+  padding-left: 130px;
+}
+
+.digital-citizen {
+  padding-top: 400px;
+  padding-left: 400px;
+}
+.citizen-video {
+  padding-top: 150px;
+  padding-left: 210px;
+}
+.emotional-education {
+  padding-top: 200px;
+  padding-left: 400px;
+}
+.google-use {
+  padding-top: 580px;
+  padding-left: 20px;
+}
+.google-device {
+  padding-top: 550px;
+  padding-left: 420px;
+}
+.settings-storage {
+  padding-top: 600px;
+  padding-left: 420px;
+}
+.comunication-settings {
+  padding-top: 550px;
+  padding-left: 100px;
+}
+.collaboration-settings {
+  padding-top: 690px;
+  padding-left: 80px;
+}
+.we-are-family {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding-top: 70px;
+  padding-left: 150px;
+}
+.footer {
+  background: #2279d0;
+  position: fixed;
+  padding-left: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.5vw;
+  color: white;
+}
+.show li {
+  color: #2279d0;
+  padding-left: 1rem;
+}
+.copyright {
+  font-size: 15px;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 0.5 1rem;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .navigation ul {
     display: none;
-}
-.navigation{
-    /* font-family: 'Baloo 2', cursive; */
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 2rem;
-    padding: 0;
-    font-size: 1.5vw;
-}
-.navigation ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
- .navigation ul li{
-     display: inline-block;
- }
- .navigation ul li a{
-     display: block;
-     padding-left: 0.6rem;
-     transition: all 0.4s linear;
- }
- .navigation ul li a:hover {
-   background: rgb(33, 4, 96);
- } 
- .about-us{
-    padding-top: 200px;
-    padding-left: 600px;  
- }
- .we-are{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing:2px;
-    font-size: 18px;
-    padding-top: 100px;
-    padding-left: 130px;   
- }
-
- .digital-citizen{
-    padding-top: 400px;
-    padding-left: 400px;
- }
- .citizen-video{
-    padding-top: 150px;
-    padding-left: 210px; 
- }
- .emotional-education{
-    padding-top: 200px;
-    padding-left: 400px;
- }
- .google-use{
-    padding-top: 580px;
-    padding-left: 20px;
- }
- .google-device{
-    padding-top: 550px;
-    padding-left: 420px; 
- }
- .settings-storage{
-    padding-top: 600px;
-    padding-left: 420px; 
- }
- .comunication-settings{
-    padding-top: 550px;
-    padding-left: 100px;
- }
- .collaboration-settings{
-    padding-top: 690px;
-    padding-left: 80px;
- }
- .we-are-family{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing:1px;
-    font-size: 15px;
-    padding-top: 70px;
-    padding-left: 150px;   
- }
- .footer{
-   background:#2279d0;
-   position: fixed;
-   padding-left: 50px;
-   left: 0;
-   bottom: 0;
-   width:100%;
-   font-size: 1.5vw; 
-   color: white;
- }
- .show li{
-     color:#2279d0;
-     padding-left: 1rem;
- }
- .copyright{
-    font-size: 15px;
-    padding: 15px; 
-
- }
-     
- @media only screen and (max-width: 767px){
-    .menu-icon{
-        display:block;
-        cursor:pointer;
-        padding: 0.5 1rem;
-    }
-   .navigation{
-       width:100%;
-   } 
-    .navigation ul{
-       display: none;
-    }
-    .navigation ul.show{
-        display: block;
-    }
-   .navigation ul li{
-        display: block;
-    }
-    .navigation ul li a{
-        display: block;
-        padding: 0.3rem;
-        transition: all 0.4s linear;
-    }
-    .navigation ul li a:hover {
-      background: rgb(82, 41, 120);
-    }
-    .footer{
-        padding: 0.3rem;
-    }
+  }
+  .navigation ul.show {
+    display: block;
+  }
+  .navigation ul li {
+    display: block;
+  }
+  .navigation ul li a {
+    display: block;
+    padding: 0.3rem;
+    transition: all 0.4s linear;
+  }
+  .navigation ul li a:hover {
+    background: rgb(82, 41, 120);
+  }
+  .footer {
+    padding: 0.3rem;
+  }
 }
