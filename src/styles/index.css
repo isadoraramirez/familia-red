@@ -206,3 +206,116 @@ h1 {
     padding: 0.3rem;
   }
 }
+@media only screen and (min-width: 1024px) {
+    .background-image {
+        position: absolute;
+        width: 1000px;
+        height: 6300px;
+        background-image: url("./fondo.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      } 
+      .about-us {
+        padding-top: 200px;
+        padding-left: 600px;
+      }
+      .we-are {
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 2px;
+        font-size: 18px;
+        padding-top: 100px;
+        padding-left: 130px;
+      }
+      
+      .digital-citizen {
+        padding-top: 400px;
+        padding-left: 400px;
+      }
+      .citizen-video {
+        padding-top: 150px;
+        padding-left: 210px;
+      }
+      .emotional-education {
+        padding-top: 300px;
+        padding-left: 600px;
+      }
+      .google-use {
+        padding-top: 600px;
+        padding-left: 20px;
+      }
+      .google-device {
+        padding-top: 600px;
+        padding-left: 520px;
+      }
+      .comunication-settings {
+        padding-top: 650px;
+        padding-left: 100px;
+      }
+      .settings-storage {
+        padding-top: 685px;
+        padding-left: 420px;
+      }
+      
+      .collaboration-settings {
+        padding-top: 750px;
+        padding-left: 80px;
+      } 
+}
+
+@media only screen and (min-width: 1270px) {
+    .background-image {
+        position: absolute;
+        width: 100%;
+        height: 6900px;
+        background-image: url("./fondo.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+      } 
+      .about-us {
+        padding-top: 200px;
+        padding-left: 600px;
+      }
+      .we-are {
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 2px;
+        font-size: 18px;
+        padding-top: 100px;
+        padding-left: 130px;
+      }
+      
+      .digital-citizen {
+        padding-top: 500px;
+        padding-left: 400px;
+      }
+      .citizen-video {
+        padding-top: 150px;
+        padding-left: 210px;
+      }
+      .emotional-education {
+        padding-top: 300px;
+        padding-left: 600px;
+      }
+      .google-use {
+        padding-top: 700px;
+        padding-left: 20px;
+      }
+      .google-device {
+        padding-top: 650px;
+        padding-left: 520px;
+      }
+      .comunication-settings {
+        padding-top: 700px;
+        padding-left: 100px;
+      }
+      .settings-storage {
+        padding-top: 700px;
+        padding-left: 420px;
+      }
+      
+      .collaboration-settings {
+        padding-top: 800px;
+        padding-left: 80px;
+      } 
+}
